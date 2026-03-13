@@ -23,15 +23,18 @@ Your site will be live in ~1 minute. To set a custom subdomain: **Site configura
 
 ### 2. Enable Netlify Identity (for CMS login)
 
-1. In the Netlify dashboard, go to **Identity** tab
-2. Click **Enable Identity**
-3. Under **Registration preferences**, select **Invite only** (so random people can't sign up)
-4. Under **External providers**, you can optionally enable Google login for convenience
+> **Note:** Netlify's new dashboard UI hides the Identity tab. Don't look for it in the sidebar — go directly to:
+> `https://app.netlify.com/sites/hanna-in-spain/identity`
+
+1. Click **Enable Identity**
+2. Under **Registration preferences**, select **Invite only** (so random people can't sign up)
+3. Under **External providers**, you can optionally enable Google login for convenience
 
 ### 3. Enable Git Gateway (so CMS can commit posts)
 
-1. In the Netlify dashboard, go to **Site configuration** → **Identity** → **Services**
-2. Click **Enable Git Gateway**
+> Go directly to: `https://app.netlify.com/sites/hanna-in-spain/identity`
+
+1. Scroll down to **Services** → click **Enable Git Gateway**
 
 This allows the CMS to commit new posts to GitHub on your behalf without you needing to touch Git.
 
